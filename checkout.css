@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+  padding: 0.5em 0.5em;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 650px;
+  color: #6d6d6d;
+}
+
+div{
+    color: black;
+}
+
+#form-box {
+
+  height: content;
+  padding: 1.5em 2.5em;
+  border-top: 0px solid #E8E8E8;
+  border-left: 1px solid #E8E8E8;
+  border-right: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form-title {
+  font-size: 1.6em;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  border-bottom: 1.5px solid #3a3737;
+}
+
+.form-header {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.form-input {
+  width: 70%;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 6px;
+  background-color: bisque;
+}
+
+.form-input:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+
+  font-size: 15px;
+  width: 135px;
+  height: 36px;
+  margin-left: 277px;
+  background-color: #E18988;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Forces .form-input styles onto search type */
+input[type=search] {
+
+  box-sizing: content-box;
+}

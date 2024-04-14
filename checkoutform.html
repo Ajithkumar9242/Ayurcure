@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="header" id="header">
+      <nav class="nav container">
+        <img src="images/logo.png" height="150px" width="150px" alt="" srcset="">
+        <a href="index.html" style="color: black" class="nav__logo">Bhrami Products</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" style="color: black"  class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" style="color: black" class="nav__link">About Us</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="product.html" style="color: black" class="nav__link">Products</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#"style="color: black" class="button">Contact Me</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <br><br><br><br><br>
+    <div class="form">
+
+        <form id="form-box" method="get">
+          <div class="form-header">Name</div>
+          <input type="text" class="form-input" id="suburb"></input>
+
+            <div id="form-title">Shipping Address</div>
+            
+            <div class="form-header">Address Line 1</div>
+
+  <input type="search" style="border: black;" class="form-input" id="addrs_1" placeholder="Search address here..."></input>
+  
+  <div class="form-header">Phone Number</div>
+  <input type="number" class="form-input" id="addrs_2"></input>
+  
+  
+  <div class="form-header">City</div>
+  <input class="form-input" id="city"></input>
+  
+  <div class="form-header">Pincode</div>
+  <input class="form-input" type="number" id="postcode"></input>
+  
+  <button type="submit" class="btn" onclick="alert('Order Placed Successfully')">Submit</button>
+</form>
+</div>
+</body>
+</html>
