@@ -52,23 +52,23 @@
 
         <form id="form-box" method="get">
           <div class="form-header">Name</div>
-          <input type="text" class="form-input" id="suburb"></input>
+          <input type="text" required class="form-input" id="suburb"></input>
 
             <div id="form-title">Shipping Address</div>
             
             <div class="form-header">Address Line 1</div>
 
-  <input type="search" style="border: black;" class="form-input" id="addrs_1" placeholder="Search address here..."></input>
+  <input type="search" required style="border: black;" class="form-input" id="addrs_1" placeholder="Search address here..."></input>
   
   <div class="form-header">Phone Number</div>
-  <input type="number" class="form-input" id="addrs_2"></input>
+  <input type="number" required class="form-input" id="addrs_2"></input>
   
   
   <div class="form-header">City</div>
-  <input class="form-input" id="city"></input>
+  <input class="form-input" required id="city"></input>
   
   <div class="form-header">Pincode</div>
-  <input class="form-input" type="number" id="postcode"></input>
+  <input class="form-input" type="number" required id="postcode"></input>
   
   <button type="submit" class="btn" onclick="alert('Order Placed Successfully')">Submit</button>
 </form>
